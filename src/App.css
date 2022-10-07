@@ -1,2 +1,259 @@
 @import '~antd/dist/antd.css';
 
+.App {
+  height: auto;
+  width: 100%;
+  text-align: left;
+  padding-top: 100px;
+  padding-left: 350px;
+  padding-right: 350px;
+  padding-bottom: 200PX;
+}
+
+
+
+.App-Holder {
+  height: auto;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/*********************************************************************************************************/
+/*.GRID-MAIN{
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-areas: "AREA1" "." "AREA2" "." "AREA3" "." "AREA4" "." "AREA5";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 20px auto 20px auto 20px auto 20px auto;
+}
+/*********************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************************************************************************/
+/*.Work-Experience-Grid_1 { 
+  display: grid;
+  width: 100%;  
+  height: auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; 
+  grid-template-areas: "TITLE"".""SUBTITLE"".""DESCRIPTION"".""ACHIEVEMENTS-AND-RESPONSIBILITIES";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 20px auto 20px auto 60px auto;
+  grid-column: 1/1;
+  grid-row: 9/9;;
+}
+
+.Work-Experience-Grid_2 {
+  display: grid;
+  height: auto;
+  width: 100%;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-areas: "TITLE"".""SUBTITLE"".""DESCRIPTION"".""ACHIEVEMENTS-AND-RESPONSIBILITIES";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 20px auto 20px auto 60px auto;
+  grid-column: 1/1 ;
+  grid-row: 7/9;
+}
+
+.Work-Experience-Grid_3 {
+  display: grid;
+  height: auto;
+  width: 100%;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-areas: "TITLE"".""SUBTITLE"".""DESCRIPTION"".""ACHIEVEMENTS-AND-RESPONSIBILITIES";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 20px auto 20px auto 20px auto;
+  grid-column: 1/1;
+  grid-row: 5/9;
+}
+
+.Work-Experience-Grid_4 {
+  display: grid;
+  height: auto;
+  width: 100%;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-areas: "TITLE"".""SUBTITLE"".""DESCRIPTION"".""ACHIEVEMENTS-AND-RESPONSIBILITIES";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 20px auto 20px auto 20px auto;
+  grid-column: 1/1;
+  grid-row: 3/9;
+}
+
+.Work-Experience-Grid_5 {
+  display: grid;
+  height: auto;
+  width: 100%;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-areas: "TITLE"".""SUBTITLE"".""DESCRIPTION"".""ACHIEVEMENTS-AND-RESPONSIBILITIES";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 20px auto 20px auto 20px auto;
+  grid-column: 1/1;
+  grid-row: 1/9;
+}
+/*********************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************************************************************************/
+.projects_title_holder_1 {
+  width: 100%;
+  height: auto;
+  grid-area: "TITLE"; 
+}
+
+.projects_title_holder_2 {
+  width: 100%;
+  height: auto;
+  grid-area: "SUBTITLE";
+}
+
+.projects_title_holder_3 {
+  width: 100%;
+  height: auto;
+  grid-area: "DESCRIPTION";
+}
+
+.projects_title_holder_4 {
+  width: 100%;
+  height: auto;
+  grid-area: "ACHIEVEMENTS-AND-RESPONSIBILITIES";
+}
+/*********************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************************FONTS*****************************************************/
+.BULLETS{
+  
+}
+
+
+.COLLAPSE-DIVIDE{
+  display: grid;
+  height: auto;
+  width: 100%;  
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px 30px 60px;
+  color: #282c34;
+}
+
+
+.LIST{
+  font-family: 
+}
+
+.PARAGRAPH{
+  font-family:
+}
+
+.TECH-STACK{
+  padding-bottom: 50px;
+
+}
+/***********************************************FONTS*****************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
